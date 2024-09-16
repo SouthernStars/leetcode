@@ -58,8 +58,8 @@ type ListNode struct {
 | 2. | -       | 中等 | [707.设计链表](docs/basic/linklist/707.设计链表.md)               |
 | 3. | -       | 简单 | [206.翻转链表](docs/basic/linklist/206.翻转链表.md)               |
 | 4. | -       | 中等 | [24.两两交换链表中的节点](docs/basic/linklist/24.两两交换链表中的节点.md)     |
-| 5. |         | 中等 | [19.删除链表的倒数第N个结点](docs/basic/linklist/19.删除链表的倒数第N个结点.md) |
-| 6. |         | 中等 | [160.链表相交](docs/basic/linklist/160.链表相交.md)               |
-| 7. |         | 中等 | [142.环形链表II](docs/basic/linklist/142.环形链表II.md)           |
+| 5. | _       | 中等 | [19.删除链表的倒数第N个结点](docs/basic/linklist/19.删除链表的倒数第N个结点.md) |
+| 6. | _       | 中等 | [160.链表相交](docs/basic/linklist/160.链表相交.md)               |
+| 7. | _       | 中等 | [142.环形链表II](docs/basic/linklist/142.环形链表II.md)           |
 
 

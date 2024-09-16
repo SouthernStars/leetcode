@@ -1,4 +1,4 @@
-# xxx. xxx
+# xxx.xxx
 [leetcode 链接](https://leetcode.cn/problems/xxx/description/)
 
 ### 一、题目描述

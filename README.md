@@ -63,7 +63,6 @@ type ListNode struct {
 | 4. | 模拟迭代法      | 中等 | [24.两两交换链表中的节点](docs/basic/linklist/24.两两交换链表中的节点.md)     |
 | 5. | 快慢指针法      | 中等 | [19.删除链表的倒数第N个结点](docs/basic/linklist/19.删除链表的倒数第N个结点.md) |
 | 6. | 快慢指针法      | 中等 | [160.相交链表](docs/basic/linklist/160.相交链表.md)               |
-| 7. | 快慢指针法，哈希表法 | 简单 | [141.环形链表](docs/basic/linklist/141.环形链表.md)               |
-| 8. | _          | 中等 | [142.环形链表II](docs/basic/linklist/142.环形链表II.md)           |
+| 7. | 快慢指针法，哈希表法 | 中等 | [142.环形链表II](docs/basic/linklist/142.环形链表II.md)           |
 
 

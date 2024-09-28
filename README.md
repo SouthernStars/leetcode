@@ -89,7 +89,7 @@ type ListNode struct {
 | 4. &#10004; | 哈希表 | 简单 | [202.快乐数](docs/basic/hashtable/202.快乐数.md)           |
 | 5. &#10004; | 哈希表 | 简单 | [1.两数之和](docs/basic/hashtable/1.两数之和.md)             |
 | 6. &#10004; | 哈希表 | 中等 | [15.三数之和](docs/basic/hashtable/15.三数之和.md)           |
-| 7.          | 哈希表 | 中等 | [18.四数之和](docs/basic/hashtable/18.四数之和.md)           |
+| 7. &#10004; | 哈希表 | 中等 | [18.四数之和](docs/basic/hashtable/18.四数之和.md)           |
 | 8.          | 哈希表 | 中等 | [454.四数相加II](docs/basic/hashtable/454.四数相加II.md)     |
 | 9.          | 哈希表 | 简单 | [383.赎金信](docs/basic/hashtable/383.赎金信.md)           |
 

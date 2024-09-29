@@ -141,7 +141,7 @@
 | 8. &#10004;  | 单调栈     | 中等 | [739.每日温度](docs/basic/stack-queue/739.每日温度.md)                       |
 | 9. &#10004;  | 单调栈+哈希表 | 简单 | [496.下一个更大元素I](docs/basic/stack-queue/496.下一个更大元素I.md)               |
 | 10. &#10004; | 单调栈     | 中等 | [503.下一个更大元素II](docs/basic/stack-queue/503.下一个更大元素II.md)             |
-| 11.          | 单调栈     | 困难 | [42.接雨水](docs/basic/stack-queue/42.接雨水.md)                           |
+| 11. &#10004; | 单调栈     | 困难 | [42.接雨水](docs/basic/stack-queue/42.接雨水.md)                           |
 | 12.          | 单调栈     | 困难 | [84.柱状图中最大的矩形](docs/basic/stack-queue/84.柱状图中最大的矩形.md)               |
 
 

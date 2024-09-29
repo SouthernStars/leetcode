@@ -138,7 +138,7 @@
 | 5.           |         | 中等 | [150.逆波兰表达式求值](docs/basic/stack-queue/150.逆波兰表达式求值.md)               |
 | 6.           |         | 困难 | [239.滑动窗口最大值](docs/basic/stack-queue/239.滑动窗口最大值.md)                 |
 | 7.           |         | 中等 | [347.前K个高频元素](docs/basic/stack-queue/347.前K个高频元素.md)                 |
-| 8.           | 单调栈     | 中等 | [739.每日温度](docs/basic/stack-queue/739.每日温度.md)                       |
+| 8. &#10004;  | 单调栈     | 中等 | [739.每日温度](docs/basic/stack-queue/739.每日温度.md)                       |
 | 9. &#10004;  | 单调栈+哈希表 | 简单 | [496.下一个更大元素I](docs/basic/stack-queue/496.下一个更大元素I.md)               |
 | 10. &#10004; | 单调栈     | 中等 | [503.下一个更大元素II](docs/basic/stack-queue/503.下一个更大元素II.md)             |
 | 11.          | 单调栈     | 困难 | [42.接雨水](docs/basic/stack-queue/42.接雨水.md)                           |

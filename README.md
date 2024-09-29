@@ -132,17 +132,17 @@
 | 序号          | 类型     | 难度 | 题目                                                                  |
 |-------------|--------|----|---------------------------------------------------------------------|
 | 1. &#10004; | 栈-括号匹配 | 简单 | [20.有效的括号](docs/basic/stackqueue/20.有效的括号.md)                       |
-| 2.          | 栈与队列   |    | [232.用栈实现队列](docs/basic/stackqueue/232.用栈实现队列.md)                   |
-| 3.          | 栈与队列   |    | [225.用队列实现栈](docs/basic/stackqueue/225.用队列实现栈.md)                   |
-| 4.          |        |    | [1047.删除字符串中的所有相邻重复项](docs/basic/stackqueue/1047.删除字符串中的所有相邻重复项.md) |
-| 5.          |        |    | [150.逆波兰表达式求值](docs/basic/stackqueue/150.逆波兰表达式求值.md)               |
-| 6.          |        |    | [239.滑动窗口最大值](docs/basic/stackqueue/239.滑动窗口最大值.md)                 |
-| 7.          |        |    | [347.前K个高频元素](docs/basic/stackqueue/347.前K个高频元素.md)                 |
-| 8.          | 单调栈    |    | [739.每日温度](docs/basic/stackqueue/739.每日温度.md)                       |
-| 9.          | 单调栈    |    | [496.下一个更大元素I](docs/basic/stackqueue/496.下一个更大元素I.md)               |
-| 10.         | 单调栈    |    | [503.下一个更大元素II](docs/basic/stackqueue/503.下一个更大元素II.md)             |
-| 11.         | 单调栈    |    | [42.接雨水](docs/basic/stackqueue/42.接雨水.md)                           |
-| 12.         | 单调栈    |    | [84.柱状图中最大的矩形](docs/basic/stackqueue/84.柱状图中最大的矩形.md)               |
+| 2.          | 栈与队列   | 简单 | [232.用栈实现队列](docs/basic/stackqueue/232.用栈实现队列.md)                   |
+| 3.          | 栈与队列   | 简单 | [225.用队列实现栈](docs/basic/stackqueue/225.用队列实现栈.md)                   |
+| 4.          |        | 简单 | [1047.删除字符串中的所有相邻重复项](docs/basic/stackqueue/1047.删除字符串中的所有相邻重复项.md) |
+| 5.          |        | 中等 | [150.逆波兰表达式求值](docs/basic/stackqueue/150.逆波兰表达式求值.md)               |
+| 6.          |        | 困难 | [239.滑动窗口最大值](docs/basic/stackqueue/239.滑动窗口最大值.md)                 |
+| 7.          |        | 中等 | [347.前K个高频元素](docs/basic/stackqueue/347.前K个高频元素.md)                 |
+| 8.          | 单调栈    | 中等 | [739.每日温度](docs/basic/stackqueue/739.每日温度.md)                       |
+| 9.          | 单调栈    | 简单 | [496.下一个更大元素I](docs/basic/stackqueue/496.下一个更大元素I.md)               |
+| 10.         | 单调栈    | 中等 | [503.下一个更大元素II](docs/basic/stackqueue/503.下一个更大元素II.md)             |
+| 11.         | 单调栈    | 困难 | [42.接雨水](docs/basic/stackqueue/42.接雨水.md)                           |
+| 12.         | 单调栈    | 困难 | [84.柱状图中最大的矩形](docs/basic/stackqueue/84.柱状图中最大的矩形.md)               |
 
 
 

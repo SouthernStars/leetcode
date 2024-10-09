@@ -193,7 +193,7 @@ type TreeNode struct {
 | 51 | [111.二叉树的最小深度](docs/basic/binary-tree/111.二叉树的最小深度.md)                     | &#11088;         | :sunny: | :fire: | 递归(后序遍历改造) | &#10004; 2024/10/13 |
 | 52 | [226.翻转二叉树](docs/basic/binary-tree/226.翻转二叉树.md)                           | &#11088;         | :sunny: | :fire: | 递归(先序遍历改造) | &#10004; 2024/10/13 |
 | 53 | [101.对称二叉树](docs/basic/binary-tree/101.对称二叉树.md)                           | &#11088;         | :sunny: | :fire: | 递归         | &#10004; 2024/10/14 |
-| 54 | [222.完全二叉树的节点个数](docs/basic/binary-tree/222.完全二叉树的节点个数.md)                 | &#11088;         | :sunny: | :fire: |            | 2024/10/14          |
+| 54 | [222.完全二叉树的节点个数](docs/basic/binary-tree/222.完全二叉树的节点个数.md)                 | &#11088;         | :sunny: | :fire: | 递归（后序遍历改造） | &#10004; 2024/10/14 |
 | 55 | [110.平衡二叉树](docs/basic/binary-tree/110.平衡二叉树.md)                           | &#11088;         | :sunny: | :fire: |            | 2024/10/14          |
 | 56 | [257.二叉树的所有路径](docs/basic/binary-tree/257.二叉树的所有路径.md)                     |                  | :sunny: | :fire: |            | 2024/10/15          |
 | 57 | [404.左叶子之和](docs/basic/binary-tree/404.左叶子之和.md)                           |                  | :sunny: | :fire: |            | 2024/10/15          |

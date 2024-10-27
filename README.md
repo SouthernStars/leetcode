@@ -296,6 +296,7 @@ type TreeNode struct {
 
 
 回溯算法模板：
+
 回溯函数模板返回值以及参数：
 - 返回值一般为void
 - 一般是先写逻辑，然后需要什么参数，就填什么参数
@@ -309,7 +310,7 @@ type TreeNode struct {
 
 ![img.png](docs/algr/back-tracking/img.png)
 
-回溯算法模板框架如下：
+回溯算法模板框架：
 
 ```
 void backtracking(参数) {
@@ -317,9 +318,10 @@ void backtracking(参数) {
         存放结果;
         return;
     }
+    // 横向搜索
     for (选择：本层集合中元素（树中节点孩子的数量就是集合的大小）) { // for循环就是遍历集合区间，可以理解一个节点有多少个孩子，这个for循环就执行多少次
         处理节点;
-        backtracking(路径，选择列表); // 递归,纵向遍历
+        backtracking(路径，选择列表); // 递归,纵向搜索
         回溯，撤销处理结果
     } // 这样就把这棵树全遍历完了，一般来说，搜索叶子节点就是找的其中一个结果了
 }
@@ -400,7 +402,7 @@ void backtracking(参数) {
 | 39 | [5.最长回文子串](docs/algr/dynamic-programming/5.最长回文子串.md)                   |    | 2024/11/13 |
 | 40 | [132.分割回文串II](docs/algr/dynamic-programming/132.分割回文串II.md)             |    | 2024/11/13 |
 | 41 | [516.最长回文子序列](docs/algr/dynamic-programming/516.最长回文子序列.md)             |    | 2024/11/13 |
-| 19 | [968.监控二叉树](docs/algr/greedy/968.监控二叉树.md)                              |    |            | 2024/10/27 |
+| 42  | [968.监控二叉树](docs/algr/greedy/968.监控二叉树.md)                              |    |            | 2024/10/27 |
 
 并查集
 684.冗余连接 【并查集基础题目】

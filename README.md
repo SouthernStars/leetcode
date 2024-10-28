@@ -332,7 +332,7 @@ void backtracking(参数) {
 | 4  | [40.组合总和II](docs/algr/back-tracking/40.组合总和II.md)       | 中等 | 回溯-组合问题 | &#10004; 2024/10/28 |
 | 5  | [216.组合总和III](docs/algr/back-tracking/216.组合总和III.md)   | 中等 | 回溯-组合问题 | &#10004; 2024/10/28 |
 | 6  | [131.分割回文串](docs/algr/back-tracking/131.分割回文串.md)       | 中等 | 回溯-分割问题 | &#10004; 2024/10/28 |
-| 7  | [93.复原IP地址](docs/algr/back-tracking/93.复原IP地址.md)       |    | 回溯-分割问题 | 2024/10/29          |
+| 7  | [93.复原IP地址](docs/algr/back-tracking/93.复原IP地址.md)       | 中等 | 回溯-分割问题 | &#10004; 2024/10/29 |
 | 8  | [78.子集](docs/algr/back-tracking/78.子集.md)               |    | 回溯-子集问题 | 2024/10/29          |
 | 9  | [90.子集II](docs/algr/back-tracking/90.子集II.md)           |    | 回溯-子集问题 | 2024/10/29          |
 | 10 | [46.全排列](docs/algr/back-tracking/46.全排列.md)             |    | 回溯-排列问题 | 2024/10/30          |

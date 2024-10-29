@@ -321,6 +321,9 @@ void backtracking(参数) {
 }
 ```
 
+常用解题方法：
+- 回溯
+- 回溯 + 去重（排序+横向去重）
 
 题目汇总：
 
@@ -334,7 +337,7 @@ void backtracking(参数) {
 | 6  | [131.分割回文串](docs/algr/back-tracking/131.分割回文串.md)       | 中等 | 回溯-分割问题 | &#10004; 2024/10/28 |
 | 7  | [93.复原IP地址](docs/algr/back-tracking/93.复原IP地址.md)       | 中等 | 回溯-分割问题 | &#10004; 2024/10/29 |
 | 8  | [78.子集](docs/algr/back-tracking/78.子集.md)               | 中等 | 回溯-子集问题 | &#10004; 2024/10/29 |
-| 9  | [90.子集II](docs/algr/back-tracking/90.子集II.md)           |    | 回溯-子集问题 | 2024/10/29          |
+| 9  | [90.子集II](docs/algr/back-tracking/90.子集II.md)           | 中等 | 回溯-子集问题 | &#10004; 2024/10/29 |
 | 10 | [46.全排列](docs/algr/back-tracking/46.全排列.md)             |    | 回溯-排列问题 | 2024/10/30          |
 | 11 | [47.全排列II](docs/algr/back-tracking/47.全排列II.md)         |    | 回溯-排列问题 | 2024/10/30          |
 | 12 | [51.N皇后](docs/algr/back-tracking/51.N皇后.md)             |    | 回溯-棋盘问题 | 2024/10/30          |

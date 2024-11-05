@@ -341,7 +341,7 @@ void backtracking(参数) {
 | 10 | [46.全排列](docs/algr/back-tracking/46.全排列.md)             | 中等 | 回溯-排列问题 | &#10004; 2024/10/30 |
 | 11 | [47.全排列II](docs/algr/back-tracking/47.全排列II.md)         | 中等 | 回溯-排列问题 | &#10004; 2024/10/30 |
 | 12 | [51.N皇后](docs/algr/back-tracking/51.N皇后.md)             | 困难 | 回溯-棋盘问题 | &#10004; 2024/10/30 |
-| 13 | [52.N皇后II](docs/algr/back-tracking/52.N皇后II.md)         | 困难 | 回溯-棋盘问题 | 2024/10/31          |
+| 13 | [52.N皇后II](docs/algr/back-tracking/52.N皇后II.md)         | 困难 | 回溯-棋盘问题 | &#10004; 2024/10/31 |
 | 14 | [37.解数独](docs/algr/back-tracking/37.解数独.md)             |    | 回溯-棋盘问题 | 2024/10/31          |
 | 15 | [491.递增子序列](docs/algr/back-tracking/491.递增子序列.md)       |    | 回溯-其他问题 | 2024/10/31          |
 | 16 | [332.重新安排行程](docs/algr/back-tracking/332.重新安排行程.md)     |    | 回溯-其他问题 | 2024/10/31          |

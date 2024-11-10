@@ -180,7 +180,7 @@
 
 二叉树的定义：
 
-```Go
+```go
 type TreeNode struct {
     Val int
     Left *TreeNode

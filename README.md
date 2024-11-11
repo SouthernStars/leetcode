@@ -379,15 +379,13 @@ void backtracking(参数) {
 - 股票问题
 - 子序列问题
 
-第一步：dp 数组以及下标的含义
+第一步：dp 数组以及下标的含义，以及 dp数组如何初始化
 
 第二步：递推公式
 
-第三步：dp数组如何初始化
+第三步：dp 数组的遍历顺序
 
-第四步：dp 数组的遍历顺序
-
-第五步：打印 dp 数组
+第四步：打印 dp 数组
 
 题目汇总：
 
@@ -396,7 +394,7 @@ void backtracking(参数) {
 | 1  | [509.斐波那契数](docs/algr/dynamic-programming/509.斐波那契数.md)                 | 简单 | 基础题目   | &#10004; 2024/11/11 |
 | 2  | [70.爬楼梯](docs/algr/dynamic-programming/70.爬楼梯.md)                       | 简单 | 基础题目   | &#10004; 2024/11/11 |
 | 3  | [746.使用最小花费爬楼梯](docs/algr/dynamic-programming/746.使用最小花费爬楼梯.md)         | 简单 | 基础题目   | &#10004; 2024/11/11 |
-| 4  | [62.不同路径](docs/algr/dynamic-programming/62.不同路径.md)                     |    | 基础题目   | 2024/11/12          |
+| 4  | [62.不同路径](docs/algr/dynamic-programming/62.不同路径.md)                     | 中等 | 基础题目   | &#10004; 2024/11/12 |
 | 5  | [63.不同路径II](docs/algr/dynamic-programming/63.不同路径II.md)                 |    | 基础题目   | 2024/11/12          |
 | 6  | [343.整数拆分](docs/algr/dynamic-programming/343.整数拆分.md)                   |    | 基础题目   | 2024/11/13          |
 | 7  | [96.不同的二叉搜索树](docs/algr/dynamic-programming/96.不同的二叉搜索树.md)             |    | 基础题目   | 2024/11/13          |

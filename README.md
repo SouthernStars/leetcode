@@ -396,11 +396,11 @@ void backtracking(参数) {
 | 3  | [746.使用最小花费爬楼梯](docs/algr/dynamic-programming/746.使用最小花费爬楼梯.md)         | 简单 | 基础题目   | &#10004; 2024/11/11 |
 | 4  | [62.不同路径](docs/algr/dynamic-programming/62.不同路径.md)                     | 中等 | 基础题目   | &#10004; 2024/11/12 |
 | 5  | [63.不同路径II](docs/algr/dynamic-programming/63.不同路径II.md)                 | 中等 | 基础题目   | &#10004; 2024/11/12 |
-| 6  | [343.整数拆分](docs/algr/dynamic-programming/343.整数拆分.md)                   | 中等 | 基础题目   | &#10004; 2024/11/13 |
-| 7  | [96.不同的二叉搜索树](docs/algr/dynamic-programming/96.不同的二叉搜索树.md)             | 中等 | 基础题目   | &#10004; 2024/11/13 |
+| 6  | [343.整数拆分](docs/algr/dynamic-programming/343.整数拆分.md)                   | 中等 | 基础题目   | &#10004; 2024/11/12 |
+| 7  | [96.不同的二叉搜索树](docs/algr/dynamic-programming/96.不同的二叉搜索树.md)             | 中等 | 基础题目   | &#10004; 2024/11/12 |
 | 8  | [64.最小路径和](docs/algr/dynamic-programming/64.最小路径和.md)                   | 中等 | 基础题目   | &#10004; 2024/11/13 |
 | 9  | [152.乘积最大子数组](docs/algr/dynamic-programming/152.乘积最大子数组.md)             | 中等 | 基础题目   | &#10004; 2024/11/13 |
-| 10 | [221.最大正方形](docs/algr/dynamic-programming/221.最大正方形.md)                 |    | 基础题目   | 2024/11/12          |
+| 10 | [221.最大正方形](docs/algr/dynamic-programming/221.最大正方形.md)                 | 中等 | 基础题目   | &#10004; 2024/11/13 |
 | 11 | [416.分割等和子集](docs/algr/dynamic-programming/416.分割等和子集.md)               |    | 01背包问题 | 2024/11/13          |
 | 12 | [1049.最后一块石头的重量II](docs/algr/dynamic-programming/1049.最后一块石头的重量II.md)   |    | 01背包问题 | 2024/11/14          |
 | 13 | [494.目标和](docs/algr/dynamic-programming/494.目标和.md)                     |    | 01背包问题 | 2024/11/14          |

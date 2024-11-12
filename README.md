@@ -397,7 +397,7 @@ void backtracking(参数) {
 | 4  | [62.不同路径](docs/algr/dynamic-programming/62.不同路径.md)                     | 中等 | 基础题目   | &#10004; 2024/11/12 |
 | 5  | [63.不同路径II](docs/algr/dynamic-programming/63.不同路径II.md)                 | 中等 | 基础题目   | &#10004; 2024/11/12 |
 | 6  | [343.整数拆分](docs/algr/dynamic-programming/343.整数拆分.md)                   | 中等 | 基础题目   | &#10004; 2024/11/13 |
-| 7  | [96.不同的二叉搜索树](docs/algr/dynamic-programming/96.不同的二叉搜索树.md)             |    | 基础题目   | 2024/11/13          |
+| 7  | [96.不同的二叉搜索树](docs/algr/dynamic-programming/96.不同的二叉搜索树.md)             | 中等 | 基础题目   | &#10004; 2024/11/13 |
 | 8  | [416.分割等和子集](docs/algr/dynamic-programming/416.分割等和子集.md)               |    | 01背包问题 | 2024/11/13          |
 | 9  | [1049.最后一块石头的重量II](docs/algr/dynamic-programming/1049.最后一块石头的重量II.md)   |    | 01背包问题 | 2024/11/14          |
 | 10 | [494.目标和](docs/algr/dynamic-programming/494.目标和.md)                     |    | 01背包问题 | 2024/11/14          |

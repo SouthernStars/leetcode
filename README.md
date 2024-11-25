@@ -445,7 +445,7 @@ dp[i][j]    背包容量
 | 10 | [221.最大正方形](docs/algr/dynamic-programming/221.最大正方形.md)                 | 中等 | 基础题目   | &#10004; 2024/11/13 |
 | 11 | [416.分割等和子集](docs/algr/dynamic-programming/416.分割等和子集.md)               | 中等 | 01背包问题 | &#10004; 2024/11/13 |
 | 12 | [494.目标和](docs/algr/dynamic-programming/494.目标和.md)                     | 中等 | 01背包问题 | &#10004; 2024/11/14 |
-| 13 | [1049.最后一块石头的重量II](docs/algr/dynamic-programming/1049.最后一块石头的重量II.md)   | 中等 | 01背包问题 | 2024/11/14          |
+| 13 | [1049.最后一块石头的重量II](docs/algr/dynamic-programming/1049.最后一块石头的重量II.md)   | 中等 | 01背包问题 | &#10004; 2024/11/14 |
 | 14 | [474.一和零](docs/algr/dynamic-programming/474.一和零.md)                     |    | 01背包问题 | 2024/11/14          |
 | 15 | [518.零钱兑换II](docs/algr/dynamic-programming/518.零钱兑换II.md)               |    | 完全背包问题 | 2024/11/15          |
 | 16 | [377.组合总和Ⅳ](docs/algr/dynamic-programming/377.组合总和Ⅳ.md)                 |    | 完全背包问题 | 2024/11/15          |

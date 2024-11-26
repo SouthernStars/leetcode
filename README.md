@@ -420,14 +420,27 @@ dp[i][j]    背包容量
 遍历顺序：两层for循环，一个遍历物品，一个遍历背包
 
 对于 2 维 dp 数组，两层 for 循环的遍历顺序可以颠倒，原因是 递推公式，，按行遍历，按列遍历均可以进行
-
-
+```go
+for i:=1; i<n; i++ {
+    for j:=1;j<=target;j++ {
+        if j<stones[i] {
+            dp[i][j] = dp[i-1][j]
+        } else {
+            dp[i][j] = max(dp[i-1][j], dp[i-1][j-stones[i]] + stones[i])
+        }
+    }
+}
+```
 
 完全背包
 有 n 种物品，每种物品有无限个
 
-多重背包
-有 n 种物品，每种物品数量不一
+完全背包和 0-1 背包二维dp数组的代码只有一个下标不同
+// 0-1 背包
+dp[i][j] = max(dp[i-1][j], dp[i-1][j-weight[i] + value[i]);
+// 完全背包 第 i 个物品可以多次取
+dp[i][j] = max(dp[i-1][j], dp[i][j-weight[i]] + value[i]);
+
 
 题目汇总：
 
@@ -447,7 +460,7 @@ dp[i][j]    背包容量
 | 12 | [494.目标和](docs/algr/dynamic-programming/494.目标和.md)                     | 中等 | 01背包问题 | &#10004; 2024/11/14 |
 | 13 | [1049.最后一块石头的重量II](docs/algr/dynamic-programming/1049.最后一块石头的重量II.md)   | 中等 | 01背包问题 | &#10004; 2024/11/14 |
 | 14 | [474.一和零](docs/algr/dynamic-programming/474.一和零.md)                     | 中等 | 01背包问题 | &#10004; 2024/11/14 |
-| 15 | [518.零钱兑换II](docs/algr/dynamic-programming/518.零钱兑换II.md)               |    | 完全背包问题 | 2024/11/15          |
+| 15 | [518.零钱兑换II](docs/algr/dynamic-programming/518.零钱兑换II.md)               | 中等 | 完全背包问题 | &#10004; 2024/11/15 |
 | 16 | [377.组合总和Ⅳ](docs/algr/dynamic-programming/377.组合总和Ⅳ.md)                 |    | 完全背包问题 | 2024/11/15          |
 | 17 | [70.爬楼梯](docs/algr/dynamic-programming/70.爬楼梯.md)                       |    | 完全背包问题 | 2024/11/15          |
 | 18 | [322.零钱兑换](docs/algr/dynamic-programming/322.零钱兑换.md)                   |    | 完全背包问题 | 2024/11/16          |

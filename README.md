@@ -461,7 +461,7 @@ dp[i][j] = max(dp[i-1][j], dp[i][j-weight[i]] + value[i]);
 | 13 | [1049.最后一块石头的重量II](docs/algr/dynamic-programming/1049.最后一块石头的重量II.md)   | 中等 | 01背包问题 | &#10004; 2024/11/14 |
 | 14 | [474.一和零](docs/algr/dynamic-programming/474.一和零.md)                     | 中等 | 01背包问题 | &#10004; 2024/11/14 |
 | 15 | [518.零钱兑换II](docs/algr/dynamic-programming/518.零钱兑换II.md)               | 中等 | 完全背包问题 | &#10004; 2024/11/15 |
-| 16 | [377.组合总和Ⅳ](docs/algr/dynamic-programming/377.组合总和Ⅳ.md)                 |    | 完全背包问题 | 2024/11/15          |
+| 16 | [377.组合总和Ⅳ](docs/algr/dynamic-programming/377.组合总和Ⅳ.md)                 | 中等 | 完全背包问题 | &#10004; 2024/11/15 |
 | 17 | [70.爬楼梯](docs/algr/dynamic-programming/70.爬楼梯.md)                       |    | 完全背包问题 | 2024/11/15          |
 | 18 | [322.零钱兑换](docs/algr/dynamic-programming/322.零钱兑换.md)                   |    | 完全背包问题 | 2024/11/16          |
 | 19 | [279.完全平方数](docs/algr/dynamic-programming/279.完全平方数.md)                 |    | 完全背包问题 | 2024/11/16          |

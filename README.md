@@ -462,36 +462,35 @@ dp[i][j] = max(dp[i-1][j], dp[i][j-weight[i]] + value[i]);
 | 14 | [474.一和零](docs/algr/dynamic-programming/474.一和零.md)                     | 中等 | 01背包问题 | &#10004; 2024/11/14 |
 | 15 | [518.零钱兑换II](docs/algr/dynamic-programming/518.零钱兑换II.md)               | 中等 | 完全背包问题 | &#10004; 2024/11/15 |
 | 16 | [377.组合总和Ⅳ](docs/algr/dynamic-programming/377.组合总和Ⅳ.md)                 | 中等 | 完全背包问题 | &#10004; 2024/11/15 |
-| 17 | [70.爬楼梯](docs/algr/dynamic-programming/70.爬楼梯.md)                       |    | 完全背包问题 | 2024/11/15          |
-| 18 | [322.零钱兑换](docs/algr/dynamic-programming/322.零钱兑换.md)                   |    | 完全背包问题 | 2024/11/16          |
-| 19 | [279.完全平方数](docs/algr/dynamic-programming/279.完全平方数.md)                 |    | 完全背包问题 | 2024/11/16          |
-| 20 | [139.单词拆分](docs/algr/dynamic-programming/139.单词拆分.md)                   |    | 完全背包问题 | 2024/11/16          |
-| 21 | [198.打家劫舍](docs/algr/dynamic-programming/198.打家劫舍.md)                   |    | 打家劫舍问题 | 2024/11/17          |
-| 22 | [213.打家劫舍II](docs/algr/dynamic-programming/213.打家劫舍II.md)               |    | 打家劫舍问题 | 2024/11/17          |
-| 23 | [337.打家劫舍III](docs/algr/dynamic-programming/337.打家劫舍III.md)             |    | 打家劫舍问题 | 2024/11/17          |
-| 24 | [121.买卖股票的最佳时机](docs/algr/dynamic-programming/121.买卖股票的最佳时机.md)         |    | 股票问题   | 2024/11/18          |
-| 25 | [122.买卖股票的最佳时机II](docs/algr/dynamic-programming/122.买卖股票的最佳时机II.md)     |    | 股票问题   | 2024/11/18          |
-| 26 | [123.买卖股票的最佳时机III](docs/algr/dynamic-programming/123.买卖股票的最佳时机III.md)   |    | 股票问题   | 2024/11/18          |
-| 27 | [188.买卖股票的最佳时机IV](docs/algr/dynamic-programming/188.买卖股票的最佳时机IV.md)     |    | 股票问题   | 2024/11/19          |
-| 28 | [309.最佳买卖股票时机含冷冻期](docs/algr/dynamic-programming/309.最佳买卖股票时机含冷冻期.md)   |    | 股票问题   | 2024/11/19          |
-| 29 | [714.买卖股票的最佳时机含手续费](docs/algr/dynamic-programming/714.买卖股票的最佳时机含手续费.md) |    | 股票问题   | 2024/11/19          |
-| 30 | [300.最长递增子序列](docs/algr/dynamic-programming/300.最长递增子序列.md)             |    | 子序列问题  | 2024/11/20          |
-| 31 | [673.最长递增子序列的个数](docs/algr/dynamic-programming/673.最长递增子序列的个数.md)       |    | 子序列问题  | 2024/11/20          |
-| 32 | [1143.最长公共子序列](docs/algr/dynamic-programming/1143.最长公共子序列.md)           |    | 子序列问题  | 2024/11/20          |
-| 33 | [1035.不相交的线](docs/algr/dynamic-programming/1035.不相交的线.md)               |    | 子序列问题  | 2024/11/21          |
-| 34 | [674.最长连续递增序列](docs/algr/dynamic-programming/674.最长连续递增序列.md)           |    | 子序列问题  | 2024/11/21          |
-| 35 | [718.最长重复子数组](docs/algr/dynamic-programming/718.最长重复子数组.md)             |    | 子序列问题  | 2024/11/21          |
-| 36 | [53.最大子序和](docs/algr/dynamic-programming/53.最大子序和.md)                   |    | 子序列问题  | 2024/11/22          |
-| 37 | [392.判断子序列](docs/algr/dynamic-programming/392.判断子序列.md)                 |    | 子序列问题  | 2024/11/22          |
-| 38 | [115.不同的子序列](docs/algr/dynamic-programming/115.不同的子序列.md)               |    | 子序列问题  | 2024/11/22          |
-| 39 | [583.两个字符串的删除操作](docs/algr/dynamic-programming/583.两个字符串的删除操作.md)       |    | 子序列问题  | 2024/11/23          |
-| 40 | [72.编辑距离](docs/algr/dynamic-programming/72.编辑距离.md)                     |    | 子序列问题  | 2024/11/23          |
-| 41 | [647.回文子串](docs/algr/dynamic-programming/647.回文子串.md)                   |    | 回文问题   | 2024/11/23          |
-| 42 | [5.最长回文子串](docs/algr/dynamic-programming/5.最长回文子串.md)                   |    | 回文问题   | 2024/11/24          |
-| 43 | [132.分割回文串II](docs/algr/dynamic-programming/132.分割回文串II.md)             |    | 回文问题   | 2024/11/24          |
-| 44 | [516.最长回文子序列](docs/algr/dynamic-programming/516.最长回文子序列.md)             |    | 回文问题   | 2024/11/24          |
-| 45 | [10.正则表达式匹配](docs/algr/dynamic-programming/10.正则表达式匹配.md)               |    |        | 2024/11/24          |
-| 46 | [32.最长有效括号](docs/algr/dynamic-programming/32.最长有效括号.md)                 |    |        | 2024/11/24          |
+| 17 | [322.零钱兑换](docs/algr/dynamic-programming/322.零钱兑换.md)                   | 中等 | 完全背包问题 | &#10004; 2024/11/16 |
+| 18 | [279.完全平方数](docs/algr/dynamic-programming/279.完全平方数.md)                 |    | 完全背包问题 | 2024/11/16          |
+| 19 | [139.单词拆分](docs/algr/dynamic-programming/139.单词拆分.md)                   |    | 完全背包问题 | 2024/11/16          |
+| 20 | [198.打家劫舍](docs/algr/dynamic-programming/198.打家劫舍.md)                   |    | 打家劫舍问题 | 2024/11/17          |
+| 21 | [213.打家劫舍II](docs/algr/dynamic-programming/213.打家劫舍II.md)               |    | 打家劫舍问题 | 2024/11/17          |
+| 22 | [337.打家劫舍III](docs/algr/dynamic-programming/337.打家劫舍III.md)             |    | 打家劫舍问题 | 2024/11/17          |
+| 23 | [121.买卖股票的最佳时机](docs/algr/dynamic-programming/121.买卖股票的最佳时机.md)         |    | 股票问题   | 2024/11/18          |
+| 24 | [122.买卖股票的最佳时机II](docs/algr/dynamic-programming/122.买卖股票的最佳时机II.md)     |    | 股票问题   | 2024/11/18          |
+| 25 | [123.买卖股票的最佳时机III](docs/algr/dynamic-programming/123.买卖股票的最佳时机III.md)   |    | 股票问题   | 2024/11/18          |
+| 26 | [188.买卖股票的最佳时机IV](docs/algr/dynamic-programming/188.买卖股票的最佳时机IV.md)     |    | 股票问题   | 2024/11/19          |
+| 27 | [309.最佳买卖股票时机含冷冻期](docs/algr/dynamic-programming/309.最佳买卖股票时机含冷冻期.md)   |    | 股票问题   | 2024/11/19          |
+| 28 | [714.买卖股票的最佳时机含手续费](docs/algr/dynamic-programming/714.买卖股票的最佳时机含手续费.md) |    | 股票问题   | 2024/11/19          |
+| 29 | [300.最长递增子序列](docs/algr/dynamic-programming/300.最长递增子序列.md)             |    | 子序列问题  | 2024/11/20          |
+| 30 | [673.最长递增子序列的个数](docs/algr/dynamic-programming/673.最长递增子序列的个数.md)       |    | 子序列问题  | 2024/11/20          |
+| 31 | [1143.最长公共子序列](docs/algr/dynamic-programming/1143.最长公共子序列.md)           |    | 子序列问题  | 2024/11/20          |
+| 32 | [1035.不相交的线](docs/algr/dynamic-programming/1035.不相交的线.md)               |    | 子序列问题  | 2024/11/21          |
+| 33 | [674.最长连续递增序列](docs/algr/dynamic-programming/674.最长连续递增序列.md)           |    | 子序列问题  | 2024/11/21          |
+| 34 | [718.最长重复子数组](docs/algr/dynamic-programming/718.最长重复子数组.md)             |    | 子序列问题  | 2024/11/21          |
+| 35 | [53.最大子序和](docs/algr/dynamic-programming/53.最大子序和.md)                   |    | 子序列问题  | 2024/11/22          |
+| 36 | [392.判断子序列](docs/algr/dynamic-programming/392.判断子序列.md)                 |    | 子序列问题  | 2024/11/22          |
+| 37 | [115.不同的子序列](docs/algr/dynamic-programming/115.不同的子序列.md)               |    | 子序列问题  | 2024/11/22          |
+| 38 | [583.两个字符串的删除操作](docs/algr/dynamic-programming/583.两个字符串的删除操作.md)       |    | 子序列问题  | 2024/11/23          |
+| 39 | [72.编辑距离](docs/algr/dynamic-programming/72.编辑距离.md)                     |    | 子序列问题  | 2024/11/23          |
+| 40 | [647.回文子串](docs/algr/dynamic-programming/647.回文子串.md)                   |    | 回文问题   | 2024/11/23          |
+| 41 | [5.最长回文子串](docs/algr/dynamic-programming/5.最长回文子串.md)                   |    | 回文问题   | 2024/11/24          |
+| 42 | [132.分割回文串II](docs/algr/dynamic-programming/132.分割回文串II.md)             |    | 回文问题   | 2024/11/24          |
+| 43 | [516.最长回文子序列](docs/algr/dynamic-programming/516.最长回文子序列.md)             |    | 回文问题   | 2024/11/24          |
+| 44 | [10.正则表达式匹配](docs/algr/dynamic-programming/10.正则表达式匹配.md)               |    |        | 2024/11/24          |
+| 45 | [32.最长有效括号](docs/algr/dynamic-programming/32.最长有效括号.md)                 |    |        | 2024/11/24          |
 
 
 

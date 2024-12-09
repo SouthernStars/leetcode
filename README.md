@@ -466,8 +466,8 @@ dp[i][j] = max(dp[i-1][j], dp[i][j-weight[i]] + value[i]);
 | 17 | [322.零钱兑换](docs/algr/dynamic-programming/322.零钱兑换.md)                   | 中等 | 完全背包问题   | &#10004; 2024/11/16 |
 | 18 | [279.完全平方数](docs/algr/dynamic-programming/279.完全平方数.md)                 | 中等 | 动态规划     | &#10004; 2024/11/16 |
 | 19 | [139.单词拆分](docs/algr/dynamic-programming/139.单词拆分.md)                   | 中等 | 动态规划+哈希表 | &#10004; 2024/11/16 |
-| 20 | [198.打家劫舍](docs/algr/dynamic-programming/198.打家劫舍.md)                   |    | 打家劫舍问题   | 2024/11/17          |
-| 21 | [213.打家劫舍II](docs/algr/dynamic-programming/213.打家劫舍II.md)               |    | 打家劫舍问题   | 2024/11/17          |
+| 20 | [198.打家劫舍](docs/algr/dynamic-programming/198.打家劫舍.md)                   |    | 打家劫舍问题   | &#10004; 2024/11/17 |
+| 21 | [213.打家劫舍II](docs/algr/dynamic-programming/213.打家劫舍II.md)               |    | 打家劫舍问题   | &#10004; 2024/11/17 |
 | 22 | [337.打家劫舍III](docs/algr/dynamic-programming/337.打家劫舍III.md)             |    | 打家劫舍问题   | 2024/11/17          |
 | 23 | [121.买卖股票的最佳时机](docs/algr/dynamic-programming/121.买卖股票的最佳时机.md)         |    | 股票问题     | 2024/11/18          |
 | 24 | [122.买卖股票的最佳时机II](docs/algr/dynamic-programming/122.买卖股票的最佳时机II.md)     |    | 股票问题     | 2024/11/18          |

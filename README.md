@@ -480,7 +480,7 @@ dp[i][j] = max(dp[i-1][j], dp[i][j-weight[i]] + value[i]);
 | 30 | [674.最长连续递增序列](docs/algr/dynamic-programming/674.最长连续递增序列.md)         | 简单 | 子序列问题    | &#10004; 2024/11/21 |
 | 31 | [718.最长重复子数组](docs/algr/dynamic-programming/718.最长重复子数组.md)           | 中等 | 子序列问题    | &#10004; 2024/11/21 |
 | 32 | [53.最大子序和](docs/algr/dynamic-programming/53.最大子序和.md)                 | 中等 | 子序列问题    | &#10004; 2024/11/22 |
-| 33 | [392.判断子序列](docs/algr/dynamic-programming/392.判断子序列.md)               | 简单 | 子序列问题    | 2024/11/22          |
+| 33 | [392.判断子序列](docs/algr/dynamic-programming/392.判断子序列.md)               | 简单 | 子序列问题    | &#10004; 2024/11/22 |
 | 34 | [115.不同的子序列](docs/algr/dynamic-programming/115.不同的子序列.md)             | 困难 | 子序列问题    | 2024/11/22          |
 | 35 | [583.两个字符串的删除操作](docs/algr/dynamic-programming/583.两个字符串的删除操作.md)     | 中等 | 子序列问题    | 2024/11/23          |
 | 36 | [72.编辑距离](docs/algr/dynamic-programming/72.编辑距离.md)                   | 中等 | 子序列问题    | 2024/11/23          |

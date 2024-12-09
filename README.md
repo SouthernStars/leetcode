@@ -471,7 +471,7 @@ dp[i][j] = max(dp[i-1][j], dp[i][j-weight[i]] + value[i]);
 | 21 | [213.打家劫舍II](docs/algr/dynamic-programming/213.打家劫舍II.md)             | 中等 | 打家劫舍问题   | &#10004; 2024/11/17 |
 | 22 | [337.打家劫舍III](docs/algr/dynamic-programming/337.打家劫舍III.md)           | 中等 | 打家劫舍问题   | &#10004; 2024/11/17 |
 | 23 | [123.买卖股票的最佳时机III](docs/algr/dynamic-programming/123.买卖股票的最佳时机III.md) | 困难 | 股票问题     | &#10004; 2024/11/18 |
-| 24 | [188.买卖股票的最佳时机IV](docs/algr/dynamic-programming/188.买卖股票的最佳时机IV.md)   | 困难 | 股票问题     | 2024/11/19          |
+| 24 | [188.买卖股票的最佳时机IV](docs/algr/dynamic-programming/188.买卖股票的最佳时机IV.md)   | 困难 | 股票问题     | &#10004; 2024/11/19 |
 | 25 | [309.最佳买卖股票时机含冷冻期](docs/algr/dynamic-programming/309.最佳买卖股票时机含冷冻期.md) | 中等 | 股票问题     | 2024/11/19          |
 | 26 | [300.最长递增子序列](docs/algr/dynamic-programming/300.最长递增子序列.md)           |    | 子序列问题    | 2024/11/20          |
 | 27 | [673.最长递增子序列的个数](docs/algr/dynamic-programming/673.最长递增子序列的个数.md)     |    | 子序列问题    | 2024/11/20          |

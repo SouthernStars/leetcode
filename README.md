@@ -475,7 +475,7 @@ dp[i][j] = max(dp[i-1][j], dp[i][j-weight[i]] + value[i]);
 | 25 | [309.最佳买卖股票时机含冷冻期](docs/algr/dynamic-programming/309.最佳买卖股票时机含冷冻期.md) | 中等 | 股票问题     | &#10004; 2024/11/19 |
 | 26 | [300.最长递增子序列](docs/algr/dynamic-programming/300.最长递增子序列.md)           | 中等 | 子序列问题    | &#10004; 2024/11/20 |
 | 27 | [673.最长递增子序列的个数](docs/algr/dynamic-programming/673.最长递增子序列的个数.md)     | 中等 | 子序列问题    | &#10004; 2024/11/20 |
-| 28 | [1143.最长公共子序列](docs/algr/dynamic-programming/1143.最长公共子序列.md)         | 中等 | 子序列问题    | 2024/11/20          |
+| 28 | [1143.最长公共子序列](docs/algr/dynamic-programming/1143.最长公共子序列.md)         | 中等 | 子序列问题    | &#10004; 2024/11/20 |
 | 29 | [1035.不相交的线](docs/algr/dynamic-programming/1035.不相交的线.md)             | 中等 | 子序列问题    | 2024/11/21          |
 | 30 | [674.最长连续递增序列](docs/algr/dynamic-programming/674.最长连续递增序列.md)         | 简单 | 子序列问题    | 2024/11/21          |
 | 31 | [718.最长重复子数组](docs/algr/dynamic-programming/718.最长重复子数组.md)           | 中等 | 子序列问题    | 2024/11/21          |

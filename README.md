@@ -473,23 +473,23 @@ dp[i][j] = max(dp[i-1][j], dp[i][j-weight[i]] + value[i]);
 | 23 | [123.买卖股票的最佳时机III](docs/algr/dynamic-programming/123.买卖股票的最佳时机III.md) | 困难 | 股票问题     | &#10004; 2024/11/18 |
 | 24 | [188.买卖股票的最佳时机IV](docs/algr/dynamic-programming/188.买卖股票的最佳时机IV.md)   | 困难 | 股票问题     | &#10004; 2024/11/19 |
 | 25 | [309.最佳买卖股票时机含冷冻期](docs/algr/dynamic-programming/309.最佳买卖股票时机含冷冻期.md) | 中等 | 股票问题     | &#10004; 2024/11/19 |
-| 26 | [300.最长递增子序列](docs/algr/dynamic-programming/300.最长递增子序列.md)           |    | 子序列问题    | 2024/11/20          |
-| 27 | [673.最长递增子序列的个数](docs/algr/dynamic-programming/673.最长递增子序列的个数.md)     |    | 子序列问题    | 2024/11/20          |
-| 28 | [1143.最长公共子序列](docs/algr/dynamic-programming/1143.最长公共子序列.md)         |    | 子序列问题    | 2024/11/20          |
-| 29 | [1035.不相交的线](docs/algr/dynamic-programming/1035.不相交的线.md)             |    | 子序列问题    | 2024/11/21          |
-| 30 | [674.最长连续递增序列](docs/algr/dynamic-programming/674.最长连续递增序列.md)         |    | 子序列问题    | 2024/11/21          |
-| 31 | [718.最长重复子数组](docs/algr/dynamic-programming/718.最长重复子数组.md)           |    | 子序列问题    | 2024/11/21          |
-| 32 | [53.最大子序和](docs/algr/dynamic-programming/53.最大子序和.md)                 |    | 子序列问题    | 2024/11/22          |
-| 33 | [392.判断子序列](docs/algr/dynamic-programming/392.判断子序列.md)               |    | 子序列问题    | 2024/11/22          |
-| 34 | [115.不同的子序列](docs/algr/dynamic-programming/115.不同的子序列.md)             |    | 子序列问题    | 2024/11/22          |
-| 35 | [583.两个字符串的删除操作](docs/algr/dynamic-programming/583.两个字符串的删除操作.md)     |    | 子序列问题    | 2024/11/23          |
-| 36 | [72.编辑距离](docs/algr/dynamic-programming/72.编辑距离.md)                   |    | 子序列问题    | 2024/11/23          |
-| 37 | [647.回文子串](docs/algr/dynamic-programming/647.回文子串.md)                 |    | 回文问题     | 2024/11/23          |
-| 38 | [5.最长回文子串](docs/algr/dynamic-programming/5.最长回文子串.md)                 |    | 回文问题     | 2024/11/24          |
-| 39 | [132.分割回文串II](docs/algr/dynamic-programming/132.分割回文串II.md)           |    | 回文问题     | 2024/11/24          |
-| 40 | [516.最长回文子序列](docs/algr/dynamic-programming/516.最长回文子序列.md)           |    | 回文问题     | 2024/11/24          |
-| 41 | [10.正则表达式匹配](docs/algr/dynamic-programming/10.正则表达式匹配.md)             |    |          | 2024/11/24          |
-| 42 | [32.最长有效括号](docs/algr/dynamic-programming/32.最长有效括号.md)               |    |          | 2024/11/24          |
+| 26 | [300.最长递增子序列](docs/algr/dynamic-programming/300.最长递增子序列.md)           | 中等 | 子序列问题    | &#10004; 2024/11/20 |
+| 27 | [673.最长递增子序列的个数](docs/algr/dynamic-programming/673.最长递增子序列的个数.md)     | 中等 | 子序列问题    | 2024/11/20          |
+| 28 | [1143.最长公共子序列](docs/algr/dynamic-programming/1143.最长公共子序列.md)         | 中等 | 子序列问题    | 2024/11/20          |
+| 29 | [1035.不相交的线](docs/algr/dynamic-programming/1035.不相交的线.md)             | 中等 | 子序列问题    | 2024/11/21          |
+| 30 | [674.最长连续递增序列](docs/algr/dynamic-programming/674.最长连续递增序列.md)         | 简单 | 子序列问题    | 2024/11/21          |
+| 31 | [718.最长重复子数组](docs/algr/dynamic-programming/718.最长重复子数组.md)           | 中等 | 子序列问题    | 2024/11/21          |
+| 32 | [53.最大子序和](docs/algr/dynamic-programming/53.最大子序和.md)                 | 中等 | 子序列问题    | 2024/11/22          |
+| 33 | [392.判断子序列](docs/algr/dynamic-programming/392.判断子序列.md)               | 简单 | 子序列问题    | 2024/11/22          |
+| 34 | [115.不同的子序列](docs/algr/dynamic-programming/115.不同的子序列.md)             | 困难 | 子序列问题    | 2024/11/22          |
+| 35 | [583.两个字符串的删除操作](docs/algr/dynamic-programming/583.两个字符串的删除操作.md)     | 中等 | 子序列问题    | 2024/11/23          |
+| 36 | [72.编辑距离](docs/algr/dynamic-programming/72.编辑距离.md)                   | 中等 | 子序列问题    | 2024/11/23          |
+| 37 | [647.回文子串](docs/algr/dynamic-programming/647.回文子串.md)                 | 中等 | 回文问题     | 2024/11/23          |
+| 38 | [5.最长回文子串](docs/algr/dynamic-programming/5.最长回文子串.md)                 | 中等 | 回文问题     | 2024/11/24          |
+| 39 | [132.分割回文串II](docs/algr/dynamic-programming/132.分割回文串II.md)           | 困难 | 回文问题     | 2024/11/24          |
+| 40 | [516.最长回文子序列](docs/algr/dynamic-programming/516.最长回文子序列.md)           | 中等 | 回文问题     | 2024/11/24          |
+| 41 | [10.正则表达式匹配](docs/algr/dynamic-programming/10.正则表达式匹配.md)             | 困难 |          | 2024/11/24          |
+| 42 | [32.最长有效括号](docs/algr/dynamic-programming/32.最长有效括号.md)               | 困难 |          | 2024/11/24          |
 
 
 

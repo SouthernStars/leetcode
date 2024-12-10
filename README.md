@@ -485,7 +485,7 @@ dp[i][j] = max(dp[i-1][j], dp[i][j-weight[i]] + value[i]);
 | 35 | [583.两个字符串的删除操作](docs/algr/dynamic-programming/583.两个字符串的删除操作.md)     | 中等 | 子序列问题    | &#10004; 2024/11/23 |
 | 36 | [72.编辑距离](docs/algr/dynamic-programming/72.编辑距离.md)                   | 中等 | 子序列问题    | &#10004; 2024/11/23 |
 | 37 | [647.回文子串](docs/algr/dynamic-programming/647.回文子串.md)                 | 中等 | 回文问题     | &#10004; 2024/11/23 |
-| 38 | [5.最长回文子串](docs/algr/dynamic-programming/5.最长回文子串.md)                 | 中等 | 回文问题     | 2024/11/24          |
+| 38 | [5.最长回文子串](docs/algr/dynamic-programming/5.最长回文子串.md)                 | 中等 | 回文问题     | &#10004; 2024/11/24 |
 | 39 | [132.分割回文串II](docs/algr/dynamic-programming/132.分割回文串II.md)           | 困难 | 回文问题     | 2024/11/24          |
 | 40 | [516.最长回文子序列](docs/algr/dynamic-programming/516.最长回文子序列.md)           | 中等 | 回文问题     | 2024/11/24          |
 | 41 | [10.正则表达式匹配](docs/algr/dynamic-programming/10.正则表达式匹配.md)             | 困难 |          | 2024/11/24          |

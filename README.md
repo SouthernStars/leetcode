@@ -505,6 +505,8 @@ dp[i][j] = max(dp[i-1][j], dp[i][j-weight[i]] + value[i]);
 
 ### 十、图论
 
+https://gitee.com/programmercarl/leetcode-master#%E5%9B%BE%E8%AE%BA
+
 图的遍历：深度优先搜索、广度优先搜索
 并查集
 最小生成树：prim  kruskal

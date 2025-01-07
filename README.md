@@ -498,7 +498,7 @@ dp[i][j] = max(dp[i-1][j], dp[i][j-weight[i]] + value[i]);
 | 38 | [5.最长回文子串](docs/algr/dynamic-programming/5.最长回文子串.md)                 | 中等 | 回文问题     | &#10004; |
 | 39 | [312.戳气球](docs/algr/dynamic-programming/312.戳气球.md)                   | 困难 | 动态规划     | &#10004; |
 | 40 | [516.最长回文子序列](docs/algr/dynamic-programming/516.最长回文子序列.md)           | 中等 | 回文问题     | &#10004; |
-| 41 | [10.正则表达式匹配](docs/algr/dynamic-programming/10.正则表达式匹配.md)             | 困难 |          |          |
+| 41 | [10.正则表达式匹配](docs/algr/dynamic-programming/10.正则表达式匹配.md)             | 困难 | 动态规划     | &#10004; |
 | 42 | [32.最长有效括号](docs/algr/dynamic-programming/32.最长有效括号.md)               | 困难 |          |          |
 
 

@@ -52,10 +52,10 @@
 岛屿数量   图 并查集
 684.冗余连接 图 并查集
 685.冗余连接II 图 并查集
+
 | 40 | [516.最长回文子序列](docs/algr/dynamic-programming/516.最长回文子序列.md)           | 中等 | 回文问题     |           |
 | 41 | [10.正则表达式匹配](docs/algr/dynamic-programming/10.正则表达式匹配.md)             | 困难 |          |           |
 | 42 | [32.最长有效括号](docs/algr/dynamic-programming/32.最长有效括号.md)               | 困难 |          |           |
-戳气球 dp
 
 
 ---
@@ -504,6 +504,8 @@ dp[i][j] = max(dp[i-1][j], dp[i][j-weight[i]] + value[i]);
 | 36 | [72.编辑距离](docs/algr/dynamic-programming/72.编辑距离.md)                   | 中等 | 子序列问题    | &#10004; |
 | 37 | [647.回文子串](docs/algr/dynamic-programming/647.回文子串.md)                 | 中等 | 回文问题     | &#10004; |
 | 38 | [5.最长回文子串](docs/algr/dynamic-programming/5.最长回文子串.md)                 | 中等 | 回文问题     | &#10004; |
+| 39 | [312.戳气球](docs/algr/dynamic-programming/312.戳气球.md)                   | 困难 | 动态规划     | &#10004; |
+
 
 
 

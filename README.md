@@ -505,6 +505,9 @@ dp[i][j] = max(dp[i-1][j], dp[i][j-weight[i]] + value[i]);
 
 ### 十、图论
 
+[图论基础](docs/algr/graph/base.md)
+
+
 https://gitee.com/programmercarl/leetcode-master#%E5%9B%BE%E8%AE%BA
 
 图的遍历：深度优先搜索、广度优先搜索

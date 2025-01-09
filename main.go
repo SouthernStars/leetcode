@@ -2,71 +2,72 @@ package main
 
 import "fmt"
 
+//5 5
+//1 3 1 2 4
+//1 2 1 3 2
+//2 4 7 2 1
+//4 5 6 1 1
+//1 4 1 2 1
+
 func main() {
 	var n, m int
 	fmt.Scanf("%d %d", &n, &m)
 	grid := make([][]int, n)
-	vist := make([][]bool, n)
+	vistf := make([][]bool, n)
+	vists := make([][]bool, n)
 	for i := 0; i < n; i++ {
 		grid[i] = make([]int, m)
-		vist[i] = make([]bool, m)
-	}
-	for i := 0; i < n; i++ {
 		for j := 0; j < m; j++ {
 			fmt.Scanf("%d", &grid[i][j])
 		}
+		vistf[i] = make([]bool, m)
+		vists[i] = make([]bool, m)
 	}
+
 	for i := 0; i < n; i++ {
-		if grid[i][0] == 1 && !vist[i][0] {
-			vist[i][0] = true
-			dfs(&grid, &vist, i, 0, false)
+		// 从第一边界逆流而上
+		if !vistf[i][0] {
+			vistf[i][0] = true
+			dfs(grid, &vistf, i, 0)
 		}
-		if grid[i][m-1] == 1 && !vist[i][m-1] {
-			vist[i][m-1] = true
-			dfs(&grid, &vist, i, m-1, false)
+		// 从第二边界逆流而上
+		if !vists[i][m-1] {
+			vists[i][m-1] = true
+			dfs(grid, &vists, i, m-1)
 		}
 	}
 	for i := 0; i < m; i++ {
-		if grid[0][i] == 1 && !vist[0][i] {
-			vist[0][i] = true
-			dfs(&grid, &vist, 0, i, false)
+		// 从第一边界逆流而上
+		if !vistf[0][i] {
+			vistf[0][i] = true
+			dfs(grid, &vistf, 0, i)
 		}
-		if grid[n-1][i] == 1 && !vist[n-1][i] {
-			vist[n-1][i] = true
-			dfs(&grid, &vist, n-1, i, false)
+		// 从第二边界逆流而上
+		if !vists[n-1][i] {
+			vists[n-1][i] = true
+			dfs(grid, &vists, n-1, i)
 		}
 	}
-	// 然后再遍历一遍，沉没孤岛
 	for i := 0; i < n; i++ {
 		for j := 0; j < m; j++ {
-			if grid[i][j] == 1 && !vist[i][j] {
-				vist[i][j] = true
-				grid[i][j] = 0
-				dfs(&grid, &vist, i, j, true)
+			if vistf[i][j] && vists[i][j] {
+				fmt.Printf("%d %d\n", i, j)
 			}
 		}
-	}
-	// 输出
-	for i := 0; i < n; i++ {
-		for j := 0; j < m-1; j++ {
-			fmt.Printf("%d ", grid[i][j])
-		}
-		fmt.Println(grid[i][m-1])
 	}
 }
 
 // 上下左右
 var directions = [4][2]int{{-1, 0}, {1, 0}, {0, -1}, {0, 1}}
 
-func dfs(grid *[][]int, vist *[][]bool, x, y int, down bool) {
+func dfs(grid [][]int, vist *[][]bool, x, y int) {
 	for _, dir := range directions {
 		newX, newY := x+dir[0], y+dir[1]
-		if newX >= 0 && newX < len(*grid) && newY >= 0 && newY < len((*grid)[0]) && (*grid)[newX][newY] == 1 && (*vist)[newX][newY] == false {
-			(*vist)[newX][newY] = true
-			if down {
-				(*grid)[newX][newY] = 0
+		if newX >= 0 && newX < len(grid) && newY >= 0 && newY < len(grid[0]) {
+			if grid[newX][newY] >= grid[x][y] && (*vist)[newX][newY] == false {
+				(*vist)[newX][newY] = true
+				dfs(grid, vist, newX, newY)
 			}
-			dfs(grid, vist, newX, newY, down)
 		}
 	}
 }

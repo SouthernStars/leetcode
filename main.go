@@ -26,8 +26,11 @@ func main() {
 		for j := 0; j < m; j++ {
 			if grid[i][j] == 1 && !vist[i][j] {
 				cnt := 0
-				bfs(grid, &vist, &cnt, i, j)
-				ans = max(ans, cnt)
+				ise := false
+				bfs(grid, &vist, &cnt, &ise, i, j)
+				if !ise {
+					ans += cnt
+				}
 			}
 		}
 	}
@@ -37,11 +40,14 @@ func main() {
 // 上下左右
 var directions = [4][2]int{{-1, 0}, {1, 0}, {0, -1}, {0, 1}}
 
-func bfs(grid [][]int, vist *[][]bool, cnt *int, x, y int) {
+func bfs(grid [][]int, vist *[][]bool, cnt *int, ise *bool, x, y int) {
 	var queue [][2]int
 	queue = append(queue, [2]int{x, y})
 	(*vist)[x][y] = true
 	*cnt++
+	if x == 0 || y == 0 || x == len(grid)-1 || y == len(grid[0])-1 {
+		*ise = true
+	}
 
 	for len(queue) > 0 {
 		e := queue[0]
@@ -51,15 +57,11 @@ func bfs(grid [][]int, vist *[][]bool, cnt *int, x, y int) {
 			if newX >= 0 && newX < len(grid) && newY >= 0 && newY < len(grid[0]) && grid[newX][newY] == 1 && (*vist)[newX][newY] == false {
 				(*vist)[newX][newY] = true
 				*cnt++
+				if newX == 0 || newY == 0 || newX == len(grid)-1 || newY == len(grid[0])-1 {
+					*ise = true
+				}
 				queue = append(queue, [2]int{newX, newY})
 			}
 		}
 	}
-}
-
-func max(a, b int) int {
-	if a > b {
-		return a
-	}
-	return b
 }

@@ -2,53 +2,41 @@ package main
 
 import "fmt"
 
-// 使用 path 记录一条路径， res 记录全部可能的路径
-var path []int
-var res [][]int
-
 func main() {
 	var n, m int
 	fmt.Scanf("%d %d", &n, &m)
-	// 编号 1~n, 申请邻接矩阵存储图 graph
-	graph := make([][]int, n+1)
-	for i := 0; i < n+1; i++ {
-		graph[i] = make([]int, 0)
+	grid := make([][]int, n)
+	vist := make([][]bool, n)
+	for i := 0; i < n; i++ {
+		grid[i] = make([]int, m)
+		vist[i] = make([]bool, m)
 	}
-	// 处理输入，将边 信息保存到 graph 中   (i,i) 之间默认是没有边的
-	for i := 0; i < m; i++ {
-		var start, end int
-		fmt.Scanf("%d %d", &start, &end)
-		graph[start] = append(graph[start], end)
-	}
-	// 从编号为 1 开始遍历
-	path = append(path, 1)
-	dfs(graph, 1, n)
-
-	// 输出结果
-	if len(res) == 0 {
-		fmt.Println(-1)
-	} else {
-		for _, v := range res {
-			for i := 0; i < len(v)-1; i++ {
-				fmt.Printf("%d ", v[i])
-			}
-			fmt.Println(v[len(v)-1])
+	for i := 0; i < n; i++ {
+		for j := 0; j < m; j++ {
+			fmt.Scanf("%d", &grid[i][j])
 		}
 	}
+	cnt := 0
+	for i := 0; i < n; i++ {
+		for j := 0; j < m; j++ {
+			if grid[i][j] == 1 && vist[i][j] == false {
+				cnt++
+				vist[i][j] = true
+				dfs(grid, &vist, i, j)
+			}
+		}
+	}
+	fmt.Println(cnt)
 }
 
-func dfs(graph [][]int, start int, n int) {
-	// 结束条件，收集结果
-	if start == n {
-		// 将 path 存入 res 中
-		res = append(res, append([]int{}, path...))
-		return
-	}
-	for _, v := range graph[start] {
-		path = append(path, v) // 将 v 加入 path, 并从 v 继续 dfs
-		dfs(graph, v, n)
-		// 回溯
-		path = path[:len(path)-1]
-	}
+var directory = [4][2]int{{-1, 0}, {1, 0}, {0, -1}, {0, 1}} // 上下左右
 
+func dfs(grid [][]int, vist *[][]bool, x, y int) {
+	for _, dir := range directory {
+		newX, newY := x+dir[0], y+dir[1]
+		if newX >= 0 && newX < len(grid) && newY >= 0 && newY < len(grid[0]) && grid[newX][newY] == 1 && (*vist)[newX][newY] == false {
+			(*vist)[newX][newY] = true
+			dfs(grid, vist, newX, newY)
+		}
+	}
 }

@@ -2,69 +2,37 @@ package main
 
 import "fmt"
 
-// 上下左右
-var directions = [4][2]int{{-1, 0}, {1, 0}, {0, -1}, {0, 1}}
-
 func main() {
-	var n, m int
-	fmt.Scanf("%d %d", &n, &m)
-	grid := make([][]int, n)
-	vist := make([][]bool, n)
-	for i := 0; i < n; i++ {
-		grid[i] = make([]int, m)
-		for j := 0; j < m; j++ {
-			fmt.Scanf("%d", &grid[i][j])
-		}
-		vist[i] = make([]bool, m)
+	// 使用邻接表存储
+	var n, k int
+	fmt.Scanf("%d %d", &n, &k)
+	graph := make([][]int, n+1) // 使用 1~n
+	for i := 0; i <= n; i++ {
+		graph[i] = make([]int, 0)
 	}
-	// 使用 map 记录
-	markCnt := map[int]int{}
-	mark := 1
-	maxCnt := 0
-	for i := 0; i < n; i++ {
-		for j := 0; j < m; j++ {
-			if !vist[i][j] && grid[i][j] == 1 {
-				mark++
-				count := 0
-				dfs(&grid, &vist, i, j, mark, &count)
-				markCnt[mark] = count
-				maxCnt = max(maxCnt, count)
-			}
-		}
+	// 访问标记数组
+	visited := make([]bool, n+1)
+	// 存储边
+	for i := 1; i <= k; i++ {
+		var s, e int
+		fmt.Scanf("%d %d", &s, &e)
+		graph[s] = append(graph[s], e)
 	}
-
-	// 双层遍历
-	for i := 0; i < n; i++ {
-		for j := 0; j < m; j++ {
-			if grid[i][j] == 0 {
-				cnt := 1
-				nerb := map[int]bool{}
-				for _, dir := range directions {
-					newX, newY := i+dir[0], j+dir[1]
-					if newX >= 0 && newX < len(grid) && newY >= 0 && newY < len(grid[0]) && grid[newX][newY] != 0 {
-						nerb[grid[newX][newY]] = true
-					}
-				}
-				for k, _ := range nerb {
-					cnt += markCnt[k]
-				}
-				maxCnt = max(maxCnt, cnt)
-			}
-		}
+	cnt := 0
+	dfs(graph, &visited, 1, &cnt)
+	if cnt == n {
+		fmt.Println(1)
+	} else {
+		fmt.Println(-1)
 	}
-	fmt.Println(maxCnt)
 }
 
-func dfs(grid *[][]int, vist *[][]bool, x, y, mark int, count *int) {
-	(*vist)[x][y] = true
-	(*grid)[x][y] = mark
-	*count++
-	for _, dir := range directions {
-		newX, newY := x+dir[0], y+dir[1]
-		if newX >= 0 && newX < len(*grid) && newY >= 0 && newY < len((*grid)[0]) {
-			if (*grid)[newX][newY] == 1 && !(*vist)[newX][newY] {
-				dfs(grid, vist, newX, newY, mark, count)
-			}
+func dfs(graph [][]int, visited *[]bool, cur int, cnt *int) {
+	(*visited)[cur] = true
+	*cnt++
+	for _, e := range graph[cur] {
+		if !(*visited)[e] {
+			dfs(graph, visited, e, cnt)
 		}
 	}
 }

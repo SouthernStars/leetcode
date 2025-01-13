@@ -527,14 +527,15 @@ dp[i][j] = max(dp[i-1][j], dp[i][j-weight[i]] + value[i]);
 | 16 | [127.单词接龙](docs/algr/graph/127.单词接龙.md)               | 广度优先遍历    | &#10004; |
 | 17 | [107.寻找存在的路径](docs/algr/graph/107.寻找存在的路径.md)         | 并查集       | &#10004; |
 | 18 | [1971.寻找图中是否存在路径](docs/algr/graph/1971.寻找图中是否存在路径.md) | 并查集       | &#10004; |
-| 19 | [127.单词接龙](docs/algr/graph/127.单词接龙.md)               | 并查集       |          |
-| 20 | [127.单词接龙](docs/algr/graph/127.单词接龙.md)               | 并查集       |          |
-| 21 | [127.单词接龙](docs/algr/graph/127.单词接龙.md)               | 并查集       |          |
-| 22 | [127.单词接龙](docs/algr/graph/127.单词接龙.md)               | 并查集       |          |
+| 19 | [108.冗余连接](docs/algr/graph/108.冗余连接.md)               | 并查集       |          |
+| 20 | [684.冗余连接](docs/algr/graph/684.冗余连接.md)               | 并查集       |          |
+| 21 | [109.冗余连接II](docs/algr/graph/109.冗余连接II.md)           | 并查集       |          |
+| 22 | [685.冗余连接II](docs/algr/graph/685.冗余连接II.md)           | 并查集       |          |
+| 23 | [399.除法求值](docs/algr/graph/399.除法求值.md)               | 并查集       |          |
 
 
-并查集：寻找存在的路径 冗余连接 冗余连接II   除法求值 684.冗余连接 685.冗余连接II
-拓扑排序：拓扑排序                        课程表
-最小生成树：prim  kruskal
-最短路径算法： dijkstra，Bellman_ford Floyd 算法
+841.钥匙和房间 【有向图】
+拓扑排序：拓扑排序，课程表
+最小生成树：prim，kruskal
+最短路径算法： dijkstra，Floyd 算法
 

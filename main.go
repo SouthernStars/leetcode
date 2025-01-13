@@ -2,56 +2,49 @@ package main
 
 import "fmt"
 
-const MaxNodes = 101
-
-var farther [MaxNodes]int
+var father []int
 
 func main() {
-	var N, M int
-	fmt.Scanf("%d %d", &N, &M)
-	// 初始化并查集
+	var N int
+	fmt.Scanf("%d", &N)
+	father = make([]int, N+1)
 	Init(N)
-	for i := 0; i < M; i++ {
+	for i := 0; i < N; i++ {
 		var start, end int
 		fmt.Scanf("%d %d", &start, &end)
-		Join(start, end)
-	}
-	var source, dest int
-	fmt.Scanf("%d %d", &source, &dest)
-	if IsSameRoot(source, dest) {
-		fmt.Println(1)
-	} else {
-		fmt.Println(0)
+		if IsSameRoot(start, end) {
+			fmt.Printf("%d %d\n", start, end)
+			return
+		} else {
+			Join(start, end)
+		}
 	}
 }
 
-// Init 并查集初始化, 节点编号 1~n
+// Init 初始化并查集，编号1~n
 func Init(n int) {
 	for i := 1; i <= n; i++ {
-		farther[i] = i // 指向自己
+		father[i] = i
 	}
 }
 
-// FindRoot 寻根
+// FindRoot 寻找 u 的根
 func FindRoot(u int) int {
-	if farther[u] == u { // 根就是自己
+	if u == father[u] {
 		return u
 	}
-	// 根不是自己，则 u 指向最顶层的根  路径压缩
-	farther[u] = FindRoot(farther[u])
-	return farther[u] // 返回最顶层的根
+	father[u] = FindRoot(father[u])
+	return father[u]
 }
 
-// Join 将 u,v 加入同一个集合
 func Join(u, v int) {
 	u = FindRoot(u)
 	v = FindRoot(v)
-	if u != v { // 根不相同，则加入
-		farther[v] = u
+	if u != v {
+		father[v] = u
 	}
 }
 
-// IsSameRoot 返回是否同根，即是否同一个集合中
 func IsSameRoot(u, v int) bool {
 	return FindRoot(u) == FindRoot(v)
 }

@@ -4,7 +4,7 @@
 // 排序 import "sort"
 sort.Ints(arr)
 
-// 大根堆模板 
+// 大根堆模板 , 不需要 import 包
 type maxHeap []int  // 对顶元素最大 hp[0]
 // 必须完成如下结构 len、swap、less、push、pop
 func (h maxheap) Len() int {
@@ -31,14 +31,11 @@ func (h *maxheap) Pop() interface{} {
 hp := &maxHeap{}
 heap.Init(hp)
 // 放入元素
-hp.Push(x)
+heap.push(hp, x)
 // 弹出元素
-hp.Pop()
+x = heap.Pop(hp).(int)
 // 对顶元素
 hp[0]
-
-
-
 ```
 
 ---

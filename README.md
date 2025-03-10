@@ -4,6 +4,11 @@
 // 排序 import "sort"
 sort.Ints(arr)
 
+// 切片排序
+sort.Slice(arr, func(i, j int) bool {
+	return arr[i][0]<arr[j][0]
+})
+
 // 大根堆模板 , 不需要 import 包
 type maxHeap []int  // 对顶元素最大 hp[0]
 // 必须完成如下结构 len、swap、less、push、pop
@@ -83,7 +88,7 @@ hp[0]
 | 23 | [4.寻找两个正序数组的中位数](docs/basic/array/4.寻找两个正序数组的中位数.md)                     | 困难 | 归并排序       | &#10004; |
 | 24 | [**215.数组中的第K个最大元素**](docs/basic/array/215.数组中的第K个最大元素.md)               | 中等 | 堆排序、快速排序   | &#10004; |
 | 25 | [252.会议室](docs/basic/array/252.会议室.md)                                   | 简单 | 排序         | &#10004; |
-| 26 | [253.会议室II](docs/basic/array/253.会议室II.md)                               | 中等 | 排序、小根堆     | &#10004; |
+| 26 | [**253.会议室II**](docs/basic/array/253.会议室II.md)                           | 中等 | 排序、小根堆     | &#10004; |
 | 27 | [621.任务调度器](docs/basic/array/621.任务调度器.md)                               | 中等 | 哈希表        | &#10004; |
 | 28 | [31.下一个排列](docs/basic/array/31.下一个排列.md)                                 | 中等 | 排列         | &#10004; |
 | 29 | [136.只出现一次的数字](docs/basic/array/136.只出现一次的数字.md)                         | 简单 | 位运算        | &#10004; |

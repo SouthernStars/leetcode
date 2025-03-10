@@ -3,6 +3,42 @@
 ```go
 // 排序 import "sort"
 sort.Ints(arr)
+
+// 大根堆模板 
+type maxHeap []int  // 对顶元素最大 hp[0]
+// 必须完成如下结构 len、swap、less、push、pop
+func (h maxheap) Len() int {
+	return len(h)
+}
+func (h maxheap) Less(i, j int) bool {
+	return h[i] > h[j]      // 小根堆修改符号即可
+}
+func (h maxheap) Swap(i, j int) {
+    h[i], h[j] = h[j], h[i]
+}
+
+func (h *maxheap) Push(x interface{}) {
+	*h = append(*h, x.(int))
+}
+
+func (h *maxheap) Pop() interface{} {
+	x := (*h)[len(*h)-1]
+	*h = (*h)[0:len(*h)-1]
+	retutn x
+}
+
+// 使用方式, 声明 + 初始化
+hp := &maxHeap{}
+heap.Init(hp)
+// 放入元素
+hp.Push(x)
+// 弹出元素
+hp.Pop()
+// 对顶元素
+hp[0]
+
+
+
 ```
 
 ---

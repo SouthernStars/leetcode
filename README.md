@@ -25,6 +25,9 @@ func (k KFreqSlice) Swap (i int, j int) {
     k[i], k[j] = k[j], k[i]
 }
 
+// string 重复 s 字符串 times 次
+strings.Repeat(s, times)
+
 // 转换函数
 // 字符串转整数
 x,_ := strconv.Atoi(s)
@@ -257,7 +260,7 @@ hp[0]
 | 11 | [**84.柱状图中最大的矩形**](docs/basic/stack-queue/84.柱状图中最大的矩形.md)               | 困难 | 单调栈            | &#10004; | 
 | 12 | [**85.最大矩形**](docs/basic/stack-queue/85.最大矩形.md)                         | 困难 | 单调栈            | &#10004; | 
 | 13 | [**155.最小栈**](docs/basic/stack-queue/155.最小栈.md)                         | 中等 | 栈              | &#10004; |
-| 14 | [394.字符串解码](docs/basic/stack-queue/394.字符串解码.md)                         | 中等 | 栈              | &#10004; |
+| 14 | [**394.字符串解码**](docs/basic/stack-queue/394.字符串解码.md)                     | 中等 | 栈              | &#10004; |
 
 
 

@@ -8,6 +8,23 @@ sort.Ints(arr)
 sort.Slice(arr, func(i, j int) bool {
 	return arr[i][0]<arr[j][0]
 })
+
+// 使用 sort.Sort() 可以对结构体进行排序，需要实现 len、swap、less 比较接口
+type KFreq struct {
+    key int
+    value int
+}
+type KFreqSlice []KFreq
+func (k KFreqSlice) Len() int {
+    return len(k)
+}
+func (k KFreqSlice) Less(i int, j int) bool {
+    return k[i].value > k[j].value
+}
+func (k KFreqSlice) Swap (i int, j int) {
+    k[i], k[j] = k[j], k[i]
+}
+
 // 转换函数
 // 字符串转整数
 x,_ := strconv.Atoi(s)

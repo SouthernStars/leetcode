@@ -480,18 +480,17 @@ dp[i][j] = max(dp[i-1][j], dp[i][j-weight[i]] + value[i])
 
 | 序号 | 题目                                                                    | 难度 | 类型       | 完成       |
 |----|-----------------------------------------------------------------------|----|----------|----------|
-| 3  | [516.最长回文子序列](docs/algr/dynamic-programming/516.最长回文子序列.md)           | 中等 | 子序列问题    | &#10004; |
-| 4  | [583.两个字符串的删除操作](docs/algr/dynamic-programming/583.两个字符串的删除操作.md)     | 中等 | 子序列问题    | &#10004; |
-| 5  | [72.编辑距离](docs/algr/dynamic-programming/72.编辑距离.md)                   | 中等 | 子序列问题    | &#10004; |
-| 6  | [198.打家劫舍](docs/algr/dynamic-programming/198.打家劫舍.md)                 | 中等 | 打家劫舍问题   | &#10004; |
-| 7  | [213.打家劫舍II](docs/algr/dynamic-programming/213.打家劫舍II.md)             | 中等 | 打家劫舍问题   | &#10004; |
-| 8  | [337.打家劫舍III](docs/algr/dynamic-programming/337.打家劫舍III.md)           | 中等 | 打家劫舍问题   | &#10004; |
-| 9  | [123.买卖股票的最佳时机III](docs/algr/dynamic-programming/123.买卖股票的最佳时机III.md) | 困难 | 股票问题     | &#10004; |
-| 10 | [188.买卖股票的最佳时机IV](docs/algr/dynamic-programming/188.买卖股票的最佳时机IV.md)   | 困难 | 股票问题     | &#10004; |
-| 11 | [309.最佳买卖股票时机含冷冻期](docs/algr/dynamic-programming/309.最佳买卖股票时机含冷冻期.md) | 中等 | 股票问题     | &#10004; |
-| 12 | [10.正则表达式匹配](docs/algr/dynamic-programming/10.正则表达式匹配.md)             | 困难 | 动态规划     | &#10004; |
-| 13 | [312.戳气球](docs/algr/dynamic-programming/312.戳气球.md)                   | 困难 | 动态规划     | &#10004; |
-| 14 | [139.单词拆分](docs/algr/dynamic-programming/139.单词拆分.md)                 | 中等 | 动态规划+哈希表 | &#10004; |
+| 1  | [583.两个字符串的删除操作](docs/algr/dynamic-programming/583.两个字符串的删除操作.md)     | 中等 | 子序列问题    | &#10004; |
+| 2  | [72.编辑距离](docs/algr/dynamic-programming/72.编辑距离.md)                   | 中等 | 子序列问题    | &#10004; |
+| 3  | [198.打家劫舍](docs/algr/dynamic-programming/198.打家劫舍.md)                 | 中等 | 打家劫舍问题   | &#10004; |
+| 4  | [213.打家劫舍II](docs/algr/dynamic-programming/213.打家劫舍II.md)             | 中等 | 打家劫舍问题   | &#10004; |
+| 5  | [337.打家劫舍III](docs/algr/dynamic-programming/337.打家劫舍III.md)           | 中等 | 打家劫舍问题   | &#10004; |
+| 6  | [123.买卖股票的最佳时机III](docs/algr/dynamic-programming/123.买卖股票的最佳时机III.md) | 困难 | 股票问题     | &#10004; |
+| 7  | [188.买卖股票的最佳时机IV](docs/algr/dynamic-programming/188.买卖股票的最佳时机IV.md)   | 困难 | 股票问题     | &#10004; |
+| 8  | [309.最佳买卖股票时机含冷冻期](docs/algr/dynamic-programming/309.最佳买卖股票时机含冷冻期.md) | 中等 | 股票问题     | &#10004; |
+| 9  | [10.正则表达式匹配](docs/algr/dynamic-programming/10.正则表达式匹配.md)             | 困难 | 动态规划     | &#10004; |
+| 10 | [312.戳气球](docs/algr/dynamic-programming/312.戳气球.md)                   | 困难 | 动态规划     | &#10004; |
+| 11 | [139.单词拆分](docs/algr/dynamic-programming/139.单词拆分.md)                 | 中等 | 动态规划+哈希表 | &#10004; |
 
 
 

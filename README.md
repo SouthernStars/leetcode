@@ -486,40 +486,37 @@ dp[i][j] = max(dp[i-1][j], dp[i][j-weight[i]] + value[i])
 
 题目汇总：
 
-| 序号 | 题目                                                        | 难度 | 类型     | 完成       |
-|----|-----------------------------------------------------------|----|--------|----------|
-| 1  | [**简单一维dp**](docs/algr/dynamic-programming/1.简单一维.md)     | 简单 | 一维dp   | &#10004; |
-| 2  | [**简单二维dp**](docs/algr/dynamic-programming/2.简单二维.md)     | 简单 | 二维dp   | &#10004; |
-| 3  | [**中等dp**](docs/algr/dynamic-programming/3.中等dp.md)       | 中等 | 中等dp   | &#10004; |
-| 4  | [**01背包问题**](docs/algr/dynamic-programming/4.01背包问题.md)   | 中等 | 01背包   | &#10004; |
-| 5  | [**完全背包问题**](docs/algr/dynamic-programming/5.完全背包问题.md)   | 中等 | 完全背包   | &#10004; |
-| 6  | [**一维子序列问题**](docs/algr/dynamic-programming/6.一维子序列问题.md) | 中等 | 子序列问题  | &#10004; |
-| 7  | [**二维子序列问题**](docs/algr/dynamic-programming/7.二维子序列问题.md) | 中等 | 子序列问题  | &#10004; |
-| 8  | [**回文子序列问题**](docs/algr/dynamic-programming/8.回文子序列问题.md) | 中等 | 子序列问题  | &#10004; |
-| 9  | [**打家劫舍问题**](docs/algr/dynamic-programming/9.打家劫舍问题.md)   | 中等 | 打家劫舍问题 | &#10004; |
-| 10 | [**股票问题**](docs/algr/dynamic-programming/10.股票问题.md)      | 中等 | 股票问题   | &#10004; |
-| 11 | [**其他问题**](docs/algr/dynamic-programming/11.其他问题.md)      | 中等 | 其他问题   | &#10004; |
+| 序号 | 题目                                                        | 难度 | 类型      | 完成       |
+|----|-----------------------------------------------------------|----|---------|----------|
+| 1  | [**简单一维dp**](docs/algr/dynamic-programming/1.简单一维.md)     | 简单 | 一维dp    | &#10004; |
+| 2  | [**简单二维dp**](docs/algr/dynamic-programming/2.简单二维.md)     | 简单 | 二维dp    | &#10004; |
+| 3  | [**中等dp**](docs/algr/dynamic-programming/3.中等dp.md)       | 中等 | 中等dp    | &#10004; |
+| 4  | [**01背包问题**](docs/algr/dynamic-programming/4.01背包问题.md)   | 中等 | 01背包    | &#10004; |
+| 5  | [**完全背包问题**](docs/algr/dynamic-programming/5.完全背包问题.md)   | 中等 | 完全背包    | &#10004; |
+| 6  | [**一维子序列问题**](docs/algr/dynamic-programming/6.一维子序列问题.md) | 中等 | 一维子序列问题 | &#10004; |
+| 7  | [**二维子序列问题**](docs/algr/dynamic-programming/7.二维子序列问题.md) | 中等 | 二维子序列问题 | &#10004; |
+| 8  | [**回文子序列问题**](docs/algr/dynamic-programming/8.回文子序列问题.md) | 中等 | 回文子序列问题 | &#10004; |
+| 9  | [**打家劫舍问题**](docs/algr/dynamic-programming/9.打家劫舍问题.md)   | 中等 | 打家劫舍问题  | &#10004; |
+| 10 | [**股票问题**](docs/algr/dynamic-programming/10.股票问题.md)      | 中等 | 股票问题    | &#10004; |
+| 11 | [**其他问题**](docs/algr/dynamic-programming/11.其他问题.md)      | 中等 | 其他问题    | &#10004; |
 
 
 | 序号 | 题目                                                                    | 难度 | 类型       | 完成       |
 |----|-----------------------------------------------------------------------|----|----------|----------|
-| 2  | [718.最长重复子数组](docs/algr/dynamic-programming/718.最长重复子数组.md)           | 中等 | 子序列问题    | &#10004; |
-| 3  | [392.判断子序列](docs/algr/dynamic-programming/392.判断子序列.md)               | 简单 | 子序列问题    | &#10004; |
-| 4  | [115.不同的子序列](docs/algr/dynamic-programming/115.不同的子序列.md)             | 困难 | 子序列问题    | &#10004; |
-| 5  | [647.回文子串](docs/algr/dynamic-programming/647.回文子串.md)                 | 中等 | 子序列问题    | &#10004; |
-| 6  | [5.最长回文子串](docs/algr/dynamic-programming/5.最长回文子串.md)                 | 中等 | 子序列问题    | &#10004; |
-| 7  | [516.最长回文子序列](docs/algr/dynamic-programming/516.最长回文子序列.md)           | 中等 | 子序列问题    | &#10004; |
-| 8  | [583.两个字符串的删除操作](docs/algr/dynamic-programming/583.两个字符串的删除操作.md)     | 中等 | 子序列问题    | &#10004; |
-| 9  | [72.编辑距离](docs/algr/dynamic-programming/72.编辑距离.md)                   | 中等 | 子序列问题    | &#10004; |
-| 10 | [198.打家劫舍](docs/algr/dynamic-programming/198.打家劫舍.md)                 | 中等 | 打家劫舍问题   | &#10004; |
-| 11 | [213.打家劫舍II](docs/algr/dynamic-programming/213.打家劫舍II.md)             | 中等 | 打家劫舍问题   | &#10004; |
-| 12 | [337.打家劫舍III](docs/algr/dynamic-programming/337.打家劫舍III.md)           | 中等 | 打家劫舍问题   | &#10004; |
-| 13 | [123.买卖股票的最佳时机III](docs/algr/dynamic-programming/123.买卖股票的最佳时机III.md) | 困难 | 股票问题     | &#10004; |
-| 14 | [188.买卖股票的最佳时机IV](docs/algr/dynamic-programming/188.买卖股票的最佳时机IV.md)   | 困难 | 股票问题     | &#10004; |
-| 15 | [309.最佳买卖股票时机含冷冻期](docs/algr/dynamic-programming/309.最佳买卖股票时机含冷冻期.md) | 中等 | 股票问题     | &#10004; |
-| 16 | [10.正则表达式匹配](docs/algr/dynamic-programming/10.正则表达式匹配.md)             | 困难 | 动态规划     | &#10004; |
-| 17 | [312.戳气球](docs/algr/dynamic-programming/312.戳气球.md)                   | 困难 | 动态规划     | &#10004; |
-| 18 | [139.单词拆分](docs/algr/dynamic-programming/139.单词拆分.md)                 | 中等 | 动态规划+哈希表 | &#10004; |
+| 1  | [647.回文子串](docs/algr/dynamic-programming/647.回文子串.md)                 | 中等 | 子序列问题    | &#10004; |
+| 2  | [5.最长回文子串](docs/algr/dynamic-programming/5.最长回文子串.md)                 | 中等 | 子序列问题    | &#10004; |
+| 3  | [516.最长回文子序列](docs/algr/dynamic-programming/516.最长回文子序列.md)           | 中等 | 子序列问题    | &#10004; |
+| 4  | [583.两个字符串的删除操作](docs/algr/dynamic-programming/583.两个字符串的删除操作.md)     | 中等 | 子序列问题    | &#10004; |
+| 5  | [72.编辑距离](docs/algr/dynamic-programming/72.编辑距离.md)                   | 中等 | 子序列问题    | &#10004; |
+| 6  | [198.打家劫舍](docs/algr/dynamic-programming/198.打家劫舍.md)                 | 中等 | 打家劫舍问题   | &#10004; |
+| 7  | [213.打家劫舍II](docs/algr/dynamic-programming/213.打家劫舍II.md)             | 中等 | 打家劫舍问题   | &#10004; |
+| 8  | [337.打家劫舍III](docs/algr/dynamic-programming/337.打家劫舍III.md)           | 中等 | 打家劫舍问题   | &#10004; |
+| 9  | [123.买卖股票的最佳时机III](docs/algr/dynamic-programming/123.买卖股票的最佳时机III.md) | 困难 | 股票问题     | &#10004; |
+| 10 | [188.买卖股票的最佳时机IV](docs/algr/dynamic-programming/188.买卖股票的最佳时机IV.md)   | 困难 | 股票问题     | &#10004; |
+| 11 | [309.最佳买卖股票时机含冷冻期](docs/algr/dynamic-programming/309.最佳买卖股票时机含冷冻期.md) | 中等 | 股票问题     | &#10004; |
+| 12 | [10.正则表达式匹配](docs/algr/dynamic-programming/10.正则表达式匹配.md)             | 困难 | 动态规划     | &#10004; |
+| 13 | [312.戳气球](docs/algr/dynamic-programming/312.戳气球.md)                   | 困难 | 动态规划     | &#10004; |
+| 14 | [139.单词拆分](docs/algr/dynamic-programming/139.单词拆分.md)                 | 中等 | 动态规划+哈希表 | &#10004; |
 
 
 

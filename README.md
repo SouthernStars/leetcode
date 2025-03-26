@@ -496,13 +496,10 @@ dp[i][j] = max(dp[i-1][j], dp[i][j-weight[i]] + value[i])
 
 | 序号 | 题目                                                                    | 难度 | 类型       | 完成       |
 |----|-----------------------------------------------------------------------|----|----------|----------|
-| 12 | [494.目标和](docs/algr/dynamic-programming/494.目标和.md)                   | 中等 | 01背包问题   | &#10004; |
-| 13 | [1049.最后一块石头的重量II](docs/algr/dynamic-programming/1049.最后一块石头的重量II.md) | 中等 | 01背包问题   | &#10004; |
-| 14 | [474.一和零](docs/algr/dynamic-programming/474.一和零.md)                   | 中等 | 01背包问题   | &#10004; |
 | 15 | [518.零钱兑换II](docs/algr/dynamic-programming/518.零钱兑换II.md)             | 中等 | 完全背包问题   | &#10004; |
 | 16 | [377.组合总和Ⅳ](docs/algr/dynamic-programming/377.组合总和Ⅳ.md)               | 中等 | 完全背包问题   | &#10004; |
 | 17 | [322.零钱兑换](docs/algr/dynamic-programming/322.零钱兑换.md)                 | 中等 | 完全背包问题   | &#10004; |
-| 18 | [279.完全平方数](docs/algr/dynamic-programming/279.完全平方数.md)               | 中等 | 动态规划     | &#10004; |
+| 18 | [279.完全平方数](docs/algr/dynamic-programming/279.完全平方数.md)               | 中等 | 完全背包问题   | &#10004; |
 | 19 | [139.单词拆分](docs/algr/dynamic-programming/139.单词拆分.md)                 | 中等 | 动态规划+哈希表 | &#10004; |
 | 20 | [198.打家劫舍](docs/algr/dynamic-programming/198.打家劫舍.md)                 | 中等 | 打家劫舍问题   | &#10004; |
 | 21 | [213.打家劫舍II](docs/algr/dynamic-programming/213.打家劫舍II.md)             | 中等 | 打家劫舍问题   | &#10004; |

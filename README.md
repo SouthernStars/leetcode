@@ -3,12 +3,10 @@
 ```go
 // 排序 import "sort"
 sort.Ints(arr)
-
 // 切片排序
 sort.Slice(arr, func(i, j int) bool {
 	return arr[i][0]<arr[j][0]
 })
-
 // 使用 sort.Sort() 可以对结构体进行排序，需要实现 len、swap、less 比较接口
 type KFreq struct {
     key int
@@ -24,16 +22,12 @@ func (k KFreqSlice) Less(i int, j int) bool {
 func (k KFreqSlice) Swap (i int, j int) {
     k[i], k[j] = k[j], k[i]
 }
-
 // string 重复 s 字符串 times 次
 strings.Repeat(s, times)
-
 // 转换函数
 // 字符串转整数
 x,_ := strconv.Atoi(s)
-
 // 数组可以使用 == 直接进行比较
-
 // 大根堆模板 , 不需要 import 包
 type maxHeap []int  // 对顶元素最大 hp[0]
 // 必须完成如下结构 len、swap、less、push、pop
@@ -46,26 +40,70 @@ func (h maxheap) Less(i, j int) bool {
 func (h maxheap) Swap(i, j int) {
     h[i], h[j] = h[j], h[i]
 }
-
 func (h *maxheap) Push(x interface{}) {
 	*h = append(*h, x.(int))
 }
-
 func (h *maxheap) Pop() interface{} {
 	x := (*h)[len(*h)-1]
 	*h = (*h)[0:len(*h)-1]
 	retutn x
 }
-
 // 使用方式, 声明 + 初始化
 hp := &maxHeap{}
 heap.Init(hp)
-// 放入元素
-heap.push(hp, x)
-// 弹出元素
-x = heap.Pop(hp).(int)
-// 对顶元素
-hp[0]
+heap.push(hp, x)    // 放入元素
+x = heap.Pop(hp).(int) // 弹出元素
+hp[0] // 对顶元素
+
+// 生产者消费者模型
+package main
+
+import (
+    "fmt"
+    "time"
+)
+
+func producer(ch chan<- int) {
+    for i := 1; i <= 5; i++ {
+        ch <- i // 将数据发送到通道
+        fmt.Println("生产者生产：", i)
+        time.Sleep(time.Second) // 模拟生产过程
+    }
+    close(ch) // 关闭通道
+}
+
+func consumer(ch <-chan int, done chan<- bool) {
+    for num := range ch {
+        fmt.Println("消费者消费：", num)
+        time.Sleep(2 * time.Second) // 模拟消费过程
+    }
+    done <- true // 通知主线程消费者已完成
+}
+func main() {
+    ch := make(chan int, 3) // 创建带有缓冲的通道
+    done := make(chan bool) // 通知主线程消费者已经完成，可以结束程序
+    go producer(ch)         // 启动生产者goroutine
+    go consumer(ch, done)   // 启动消费者goroutine
+    <-done                  // 阻塞，等待消费者消费完成
+    fmt.Println("消费者完成")
+}
+
+func main() {
+    c1 := make(chan string, 1)
+    c2 := make(chan string, 1)
+    // 开启一个协程，可以发送数据到信道
+    go func () {
+        time.Sleep(time.Second * 1)
+        c2 <- "hello"
+    }()
+
+    select {
+        case msg1 := <-c1:
+        fmt.Println("c1 received: ", msg1)
+        case msg2 := <-c2:
+        fmt.Println("c2 received: ", msg2)
+    }
+}	
 ```
 
 ---

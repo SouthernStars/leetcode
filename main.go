@@ -150,24 +150,79 @@
 
 package main
 
-import "fmt"
+import (
+	"container/heap"
+	"fmt"
+	"sort"
+	"strconv"
+)
+
+type Pair struct {
+	a int
+	b int
+}
+
+type maxHeap []int
+
+func (h maxHeap) Less(i, j int) bool {
+	return h[i] > h[j]
+}
+
+func (h maxHeap) Len() int {
+	return len(h)
+}
+
+func (h maxHeap) Swap(i, j int) {
+	h[i], h[j] = h[j], h[i]
+}
+
+func (h *maxHeap) Push(x interface{}) {
+	*h = append(*h, x.(int))
+}
+
+func (h *maxHeap) Pop() interface{} {
+	x := (*h)[len(*h)-1]
+	*h = (*h)[0 : len(*h)-1]
+	return x
+}
 
 func main() {
-	type Item struct {
-		path []int
-		val  int
-	}
 
-	pa := []int{}
-	pa = append(pa, 1)
-	item := Item{
-		path: pa,
-		val:  1,
-	}
-	fmt.Println(pa)
-	fmt.Println(item)
+	a := []int{1, 2, 3, 6, 5}
+	sort.Ints(a)
+	fmt.Println(a)
 
-	pa = append(pa, 2)
-	fmt.Println(pa)
-	fmt.Println(item)
+	var b []Pair
+	b = append(b, Pair{a: 1, b: 2})
+	b = append(b, Pair{a: 2, b: 3})
+	b = append(b, Pair{a: 2, b: 4})
+	b = append(b, Pair{a: 0, b: 1})
+	sort.Slice(b, func(i, j int) bool {
+		return b[i].a < b[j].a || b[i].a == b[j].a && b[i].b > b[j].b
+	})
+	fmt.Println(b)
+
+	atoi, _ := strconv.Atoi("123")
+	fmt.Println(atoi)
+
+	hp := &maxHeap{}
+	heap.Init(hp)
+
+	heap.Push(hp, 1)
+	heap.Push(hp, 2)
+	heap.Push(hp, 4)
+	heap.Push(hp, 3)
+
+	pop := heap.Pop(hp)
+	fmt.Println(pop)
+	pop = heap.Pop(hp)
+	fmt.Println(pop)
+	pop = heap.Pop(hp)
+	fmt.Println(pop)
+	pop = heap.Pop(hp)
+	fmt.Println(pop)
+
+	mp := make(map[int]interface{})
+	mp[1] = interface{}
+
 }

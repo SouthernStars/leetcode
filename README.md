@@ -125,6 +125,89 @@ func main() {
 }	
 ```
 
+
+```go
+package main
+
+import (
+	"bufio"
+	"fmt"
+	"os"
+	"strconv"
+	"strings"
+)
+
+func main() {
+	var T int
+	reader := bufio.NewReader(os.Stdin)
+	lineT, _, _ := reader.ReadLine()
+	T, _ = strconv.Atoi(string(lineT))
+	for t := 0; t < T; t++ {
+		var n int
+		linen, _, _ := reader.ReadLine()
+		n, _ = strconv.Atoi(string(linen))
+		arr := make([]int, n+1)
+		line, _, _ := reader.ReadLine()
+		split := strings.Split(string(line), " ")
+		for i := 1; i <= n; i++ {
+			arr[i], _ = strconv.Atoi(split[i-1])
+		}
+		// ai ^ aj = i ^ j
+		// ai ^ aj ^ i = i ^ j ^ i = j
+		// ai ^ aj ^ i ^ aj = j ^ aj
+		// ai ^ i = j ^ aj
+		res := arr[1] ^ 1
+		flag := true
+		for i := 2; i <= n; i++ {
+			if res != i^arr[i] {
+				flag = false
+				break
+			}
+		}
+		if flag {
+			fmt.Println("Yes")
+		} else {
+			fmt.Println("No")
+		}
+	}
+}
+
+//2
+//5
+//7 4 5 2 3
+//6
+//1 1 4 5 1 4
+
+//func main() {
+//	var T int
+//	fmt.Scan(&T)
+//
+//	for t := 0; t < T; t++ {
+//		var n int
+//		fmt.Scan(&n)
+//		ans := 0
+//		for j := 1; j <= n; j++ {
+//			sum := 0
+//			for i := 1; i <= int(math.Sqrt(float64(j))); i++ {
+//				if j%i == 0 {
+//					sum += i
+//					if j/i != i {
+//						sum += j / i
+//					}
+//				}
+//			}
+//			ans += sum
+//		}
+//
+//		if ans%2 == 0 {
+//			fmt.Println(0)
+//		} else {
+//			fmt.Println(1)
+//		}
+//	}
+//}
+
+```
 ---
 
 ### 一、数组
